@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="students">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+<!--        <class>pl.edu.agh.soa.lab.StudentEntity</class>-->
+        <!-- <jta-data-source>java:/PostgresDS</jta-data-source> -->
+        <!-- <class>klarenbach.daniel.entities.StudentEntity</class> -->
+        <properties>
+            <property name="hibernate.connection.datasource" value="java:jboss/datasources/PostgresDS"/>
+            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/SOA"/>
+            <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
+<!--            <property name="hibernate.show_sql" value="true" /> &lt;!&ndash; Show SQL in console &ndash;&gt;-->
+<!--            <property name="hibernate.format_sql" value="true" /> &lt;!&ndash; Show SQL formatted &ndash;&gt;-->
+            <!--            <property name="hibernate.connection.username" value="postgres"/>-->
+            <!--            <property name="hibernate.connection.password" value="Klara1374#"/>-->
+        </properties>
+    </persistence-unit>
+</persistence>
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<persistence version="2.1"-->
+<!--             xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--             xsi:schemaLocation="-->
+<!--        http://xmlns.jcp.org/xml/ns/persistence-->
+<!--        http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">-->
+<!--    <persistence-unit name="students">-->
+<!--        &lt;!&ndash;        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>&ndash;&gt;-->
+<!--        &lt;!&ndash;        <jta-data-source>java:jboss/datasources/TestDS</jta-data-source>&ndash;&gt;-->
+<!--&lt;!&ndash;        <class>pl.edu.agh.soa.entities.StudentEntity</class>&ndash;&gt;-->
+<!--        <class>pl.edu.agh.soa.lab.StudentEntity</class>-->
+<!--        <properties>-->
+<!--            <property name="hibernate.connection.datasource" value="java:jboss/datasources/PostgresDS"/>-->
+<!--            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/SOA"/>-->
+<!--            <property name="hibernate.hbm2ddl.auto" value="create-drop" />-->
+<!--            <property name="hibernate.show_sql" value="true" /> &lt;!&ndash; Show SQL in console &ndash;&gt;-->
+<!--            <property name="hibernate.format_sql" value="true" /> &lt;!&ndash; Show SQL formatted &ndash;&gt;-->
+<!--        </properties>-->
+<!--        &lt;!&ndash; If you are running in a production environment, add a managed-->
+<!--           data source, this example data source is just for development and testing! &ndash;&gt;-->
+<!--        &lt;!&ndash; The datasource is deployed as <EAR>/META-INF/lab1-ds.xml, you-->
+<!--           can find it in the source at ear/src/main/application/META-INF/lab1-ds.xml &ndash;&gt;-->
+
+<!--    </persistence-unit>-->
+<!--</persistence>-->
+
+
+
+

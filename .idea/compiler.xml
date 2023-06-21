@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Zad11111-ejb" />
+        <module name="rest-connector" />
+        <module name="Zad11111-jpa" />
+        <module name="soapconnector" />
+        <module name="project-dao" />
+        <module name="Zad11111-model" />
+        <module name="Zad11111-ear" />
+        <module name="Zad11111-web" />
+        <module name="Zad11111-dao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rest-api" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

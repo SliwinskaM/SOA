@@ -1,0 +1,8 @@
+pl\edu\agh\soa\lab\jwt\KeyGeneratorInterface.class
+pl\edu\agh\soa\lab\APIApplication.class
+pl\edu\agh\soa\lab\jwt\JWTTokenNeeded.class
+pl\edu\agh\soa\lab\protobuf\StudentMessageWriter.class
+pl\edu\agh\soa\lab\api\MainRestService.class
+pl\edu\agh\soa\lab\jwt\KeyGenerator.class
+pl\edu\agh\soa\lab\jwt\JWTTokenNeededFilter.class
+pl\edu\agh\soa\lab\jwt\JWTService.class
